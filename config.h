@@ -150,10 +150,8 @@ const char SEND_FAIL_EXT[] PROGMEM    = ".fail";
  */
 
 #ifdef USE_WIFI
-  #define STASSID   "Walmolen 5 - IoT"
-  #define STAPSK    "starlink"
-//  #define STASSID   "iPhone-Eric"
-//  #define STAPSK    "steinweg1847"
+  #define STASSID   "SSID - Home"
+  #define STAPSK    "password"
 #else
   #define STASSID   ""
   #define STAPSK    ""
