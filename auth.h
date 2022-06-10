@@ -39,6 +39,9 @@ ZV8koQYpcA8+Hd9oBUflHCP++wXEwtQ0QEkZiwyYtF9X3vCpkkbbH14ig7BMMgRx
 vlKA5I+sAZy/vFJynS/D4+HXULa4lOVB/SfqNemvwKE/mFj/hZCyB7AuD9S4
 -----END CERTIFICATE-----)==";
 
+/* You all know it is a bad idea to share the private key.
+This one has however been retracted and I wanted to give a good view on what it would look like when the RSA key is in this file. */ 
+ 
 const char my_key[] PROGMEM = R"==(-----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEA7wobo5nFboill4Z2Pp5liOeWxaDHWR/+MAFMcrj4y+0YAlt/
 cxH6qjhZluzGHPLJt1itAuwXUSQ0D7n1OkwVh5pq4PuUxkVlDWY96saHlKEcAqJr
